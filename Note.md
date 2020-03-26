@@ -39,7 +39,22 @@ app.wxss
 3. <view></view> 容器
 4. rpx和px的区别
 5. 使用flex布局，弹性盒子模型
-6. 
+
+### 五、新闻阅读列表小程序实现
+
+1.使用组件实现轮播图
+
+![](https://markdownimages.oss-cn-beijing.aliyuncs.com/img/20200325215322.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
