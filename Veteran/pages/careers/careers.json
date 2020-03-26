@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/careers/careers"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6E8B3D",
+    "navigationBarTitleText": "升学助手",
+    "navigationBarTextStyle": "white"
+  }
+}

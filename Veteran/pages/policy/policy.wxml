@@ -1,0 +1,53 @@
+<view class="content">
+ <view class="search">
+  <view class="searchinput" bindtap="searchinput">
+      <image src="image/icon/fangdajing.png" style="width:19px;height:19px;"></image>
+      <text class="searchContent">找政策、查文件、看通知</text>
+  </view>
+ </view>
+</view>
+<view class='items' bindtap='jumpDetai1'>
+        <view class='items-l'>
+          <text>【置顶】《退役士兵安置条例》</text>
+          <view>
+            <text>中央军事委员会令第608号\n2011年10月29日</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/6.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai2'>
+        <view class='items-l'>
+          <text>《征兵工作条例》</text>
+          <view>
+            <text>中央军事委员会令第608号\n2014年03月13日</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/7.png'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai3'>
+        <view class='items-l'>
+          <text>《中华人民共和国兵役法》</text>
+          <view>
+            <text>中央军事委员会令第608号\n2014年03月13日</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/8.jpg'></image>
+      </view>
+       <view class='items' bindtap='jumpDetai4'>
+        <view class='items-l'>
+          <text>《中华人民共和国军人保险法》</text>
+          <view>
+            <text>中央军事委员会令第608号\n2014年03月13日 </text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/9.jpg'></image>
+      </view>
+       <view class='items' bindtap='jumpDetai5'>
+        <view class='items-l'>
+          <text>《中华人民共和国国防法》</text>
+          <view>
+            <text>中央军事委员会令第608号\n2014年03月13日</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/10.png'></image>
+      </view>

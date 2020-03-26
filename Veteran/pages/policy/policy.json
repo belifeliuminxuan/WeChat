@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/policy/policy"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6E8B3D",
+    "navigationBarTitleText": "政策文件",
+    "navigationBarTextStyle": "white"
+   }
+}

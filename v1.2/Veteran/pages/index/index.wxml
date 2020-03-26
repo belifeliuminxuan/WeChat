@@ -1,0 +1,236 @@
+<view class="content">
+  <view class="navbg">
+    <view class="classname">
+      <image src="image/icon/fangdajing.png" class="serch"></image>
+    </view>
+    <view class="nav">
+      <scroll-view class="scroll-view_H" scroll-x="true">
+        <view class="scroll-view_H">
+          <view>
+            <view class="{{flag==0?'select':'normal'}}" id="0" bindtap="switchNav">头条</view>
+          </view>
+          <view>
+            <view class="{{flag==6?'select':'normal'}}" id="1" bindtap="switchNav">征兵</view>
+          </view>
+          <view>
+            <view class="{{flag==7?'select':'normal'}}" id="2" bindtap="switchNav">军史</view>
+          </view>
+          <view>
+            <view class="{{flag==8?'select':'normal'}}" id="3" bindtap="switchNav">装备</view>
+          </view>
+          <view>
+            <view class="{{flag==9?'select':'normal'}}" id="4" bindtap="switchNav">军校</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+   <view class="add">+</view>
+  </view> 
+  <swiper current="{{currentTab}}" style="height:460px">
+    <swiper-item>
+    <view class="haibao">
+  <swiper indicator-dot="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+  <swiper-item>
+    <image src="{{item}}" class="solde-image"></image>
+  </swiper-item>
+    </block>
+  </swiper>
+</view>
+      <view class='items' bindtap='jumpDetai'>
+        <view class='items-l'>
+          <text>从退伍迷茫到考研成功，
+          他的经历是这样的！</text>
+          <view>
+            <text>迷彩小微\n2019-5-26</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/6.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai1'>
+        <view class='items-l'>
+          <text>当兵这场修行，
+          让我成为更好的自己！</text>
+          <view>
+            <text>迷彩小微\n2019-5-27</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/7.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai2'>
+        <view class='items-l'>
+          <text>身如浮萍随浊浪，
+          几次飞梦披戎装！</text>
+          <view>
+            <text>迷彩小微\n2019-5-28</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/66.jpg'></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="haibao">
+  <swiper indicator-dot="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+  <swiper-item>
+    <image src="{{item}}" class="solde-image"></image>
+  </swiper-item>
+    </block>
+  </swiper>
+</view>
+      <view class='items' bindtap='jumpDetai3'>
+        <view class='items-l'>
+          <text>这里有一封军营邀请函，
+          请注意查收！</text>
+          <view>
+            <text>中国军网\n2019-5-16</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/8.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai4'>
+        <view class='items-l'>
+          <text>量身定制！2019新兵被装
+          将实行精确保障！</text>
+          <view>
+            <text>中国军网\n2019-5-24</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/9.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai5'>
+        <view class='items-l'>
+          <text>2019年男青年应征报名须知</text>
+          <view>
+            <text>中国军网\n2019-5-22</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/10.jpg'></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="haibao">
+  <swiper indicator-dot="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+  <swiper-item>
+    <image src="{{item}}" class="solde-image"></image>
+  </swiper-item>
+    </block>
+  </swiper>
+</view>
+      <view class='items' bindtap='jumpDetai6'>
+        <view class='items-l'>
+          <text>飞夺泸定桥：
+                 中国革命史上的不朽篇章</text>
+          <view>
+            <text>新华社\n2019-5-29</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/11.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai7'>
+        <view class='items-l'>
+          <text>驰骋苏鲁交界的“运河支队”</text>
+          <view>
+            <text>解放军报\n2019-5-27</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/12.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai8'>
+        <view class='items-l'>
+          <text>史海钩沉：
+                新中国成立与毛泽东四个“非凡”</text>
+          <view>
+            <text>北京日报\n2019-5-25</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/13.jpg'></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="haibao">
+  <swiper indicator-dot="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+  <swiper-item>
+    <image src="{{item}}" class="solde-image"></image>
+  </swiper-item>
+    </block>
+  </swiper>
+</view>
+      <view class='items' bindtap='jumpDetai9'>
+        <view class='items-l'>
+          <text>中国第一艘核潜艇：
+                四点六万个零部件全部自主研制</text>
+          <view>
+            <text>科技日报\n2019-4-24</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/14.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai10'>
+        <view class='items-l'>
+          <text>犁波三十载：
+                我和人民海军三代驱逐舰的故事</text>
+          <view>
+            <text>中国军网综合\n1019-4-11</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/15.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai11'>
+        <view class='items-l'>
+          <text>于敏：
+                国防科技事业改革发展的重要推动者</text>
+          <view>
+            <text>新华社\n2019-1-12</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/16.jpg'></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="haibao">
+  <swiper indicator-dot="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+  <swiper-item>-
+    <image src="{{item}}" class="solde-image"></image>
+  </swiper-item>
+    </block>
+  </swiper>
+</view>
+      <view class='items' bindtap='jumpDetai12'>
+        <view class='items-l'>
+          <text>淬火联考，
+                看这群军校学员如何迎接挑战</text>
+          <view>
+            <text>中国军网\n2019-5-27</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/17.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai13'>
+        <view class='items-l'>
+          <text>国防科大教员教你科学调整，
+          告别情绪低谷</text>
+          <view>
+            <text>中国军网\n2019-5-25</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/18.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai14'>
+        <view class='items-l'>
+          <text>武警工程大学“告白”活动：
+          爱要大声说出来</text>
+          <view>
+            <text>中国军网\n2019-5-21</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/19.jpg'></image>
+      </view>
+    </swiper-item>
+    
+  
+  </swiper>
+</view>

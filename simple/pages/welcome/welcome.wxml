@@ -1,0 +1,8 @@
+<view class="containner">
+<image class="user-test" src="/images/1.png"></image>
+<text class="user-name">Hello，World！</text>
+<view class="moto-test">
+<text class="moto">OPEN sORCE</text>
+</view>
+
+</view>

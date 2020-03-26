@@ -1,0 +1,23 @@
+.haibao{
+  text-align: center;
+  width: 100%;
+}
+.silde-image{
+  width:100%;
+}
+.items{
+ display:flex;
+flex-direction:row;
+padding:20rpx;
+border-bottom:1px solid #eee;
+justify-content:space-between;
+}
+.items-r{
+  height: 200rpx;
+  width: 200rpx;
+}
+.items-l{ 
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+}

@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6E8B3D",
+    "navigationBarTitleText": "关于我们",
+    "navigationBarTextStyle": "white"
+  }
+}

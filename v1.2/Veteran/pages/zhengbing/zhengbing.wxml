@@ -1,0 +1,26 @@
+<view class="content">
+  <view class="top">
+    <view class="top-tr">
+     <image src="{{trimg}}" class="top-trimg"></image>
+    </view>
+    <view class="top-info">
+      <view class="toin-name">风采」人生即挑战：退役大学生士兵敖慧</view>
+      <view class="toin-info"> 迷彩小微</view>
+    </view>
+  </view>
+  <view class="clear"></view>
+  <view class="info">
+    <view class="in-title">正文</view>
+    <view class="in-info"><text>有一种颜色，满载着情怀，散发着独特的魅力，这种颜色是绿色；
+
+有一个地方，充盈着热血，无数儿郎心驰神往，这个地方叫军营；
+
+有一群勇士，铁血铸丹心，忠诚守护万家灯火，这群勇士叫军人。
+
+有多少人，渴望触摸这一抹绿色；有多少人，渴望能够来到这个地方；有多少人，渴望能够成为一名勇士！
+
+这里有一封来自军营的邀请函——听从使命召唤，携笔从戎报国，且看湖南省邵阳市2019年大学生征兵海报。青春正步向前，你准备好了吗！ </text>
+      </view>
+  </view>
+  <view class="clear"></view>
+  </view>

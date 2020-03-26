@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/policy/policy",
+    "pages/policy1/policy1",
+    "pages/policy2/policy2",
+    "pages/policy3/policy3",
+    "pages/policy4/policy4",
+    "pages/policy5/policy5",
+    "pages/jobs/jobs",
+    "pages/jobs1/jobs1",
+    "pages/jobs2/jobs2",
+    "pages/jobs3/jobs3",
+    "pages/careers/careers",
+    "pages/jingtai/jingtai",
+    "pages/jingtai1/jingtai1",
+    "pages/jingtai2/jingtai2",
+    "pages/zhengbing/zhengbing",
+    "pages/zhengbing1/zhengbing1",
+    "pages/zhengbing2/zhengbing2",
+    "pages/junshi/junshi",
+    "pages/junshi1/junshi1",
+    "pages/junshi2/junshi2",
+    "pages/zhuangbei/zhuangbei",
+    "pages/zhuangbei1/zhuangbei1",
+    "pages/zhuangbei2/zhuangbei2",
+    "pages/junxiao/junxiao",
+    "pages/junxiao1/junxiao1",
+    "pages/junxiao2/junxiao2",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6E8B3D",
+    "navigationBarTitleText": "退役大学生士兵助手",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#6E8B3D",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/icon/home.png",
+        "selectedIconPath": "image/icon/home.png"
+      },
+      {
+        "pagePath": "pages/policy/policy",
+        "text": "政策文件",
+        "iconPath": "image/icon/policy.png",
+        "selectedIconPath": "image/icon/policy.png"
+      },
+      {
+        "pagePath": "pages/jobs/jobs",
+        "text": "安置和工作",
+        "iconPath": "image/icon/jobs.png",
+        "selectedIconPath": "image/icon/jobs.png"
+      },
+      {
+        "pagePath": "pages/careers/careers",
+        "text": "升学相关",
+        "iconPath": "image/icon/careers.png",
+        "selectedIconPath": "image/icon/careers.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "image/icon/about.png",
+        "selectedIconPath": "image/icon/about.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

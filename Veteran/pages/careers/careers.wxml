@@ -1,0 +1,91 @@
+<view class="content">
+   <view class="navbg">
+   <view class="classname"><image src="image/icon/target.png" class="serch"></image></view>
+   <view class="nav">
+       <scroll-view class="scroll-view_H" scroll-x="true">
+       <view class="scroll-view_H">
+          <view><view class="{{flag==0?'select':'normal'}}" id="0" bindtap="switchNav">考研</view></view>
+          <view><view class="{{flag==1?'select':'normal'}}" id="1" bindtap="switchNav">升本</view></view>
+          <view><view class="{{flag==2?'select':'normal'}}" id="2" bindtap="switchNav">自考</view></view>
+          <view><view class="{{flag==3?'select':'normal'}}" id="3" bindtap="switchNav">就业</view></view>
+          <view><view class="{{flag==4?'select':'normal'}}" id="4" bindtap="switchNav">军考</view></view>
+          <view><view class="{{flag==5?'select':'normal'}}" id="5" bindtap="switchNav">其他</view></view>
+       </view>
+     </scroll-view>
+      </view>
+      <view class="add">+</view>
+</view>
+<swiper current="{{currentTab}}"style="height:500px">
+  <swiper-item>
+    <view class="content">
+
+  <view class="info">
+    <view class="in-title">正文</view>
+    <view class="in-info"><text>(一)参加初试资格:报考“大学生士兵计划”的退役大学生士兵考生按照《全国硕士研究生招生管理规定》和《全国硕士研究生招生考试公告》有关要求通过现场报名确认审查的考生便具有参加初试的资格。
+       
+(二)初试时间:全国研究生统考时间 
+
+(三)初试内容:统考课：政治和英语;专业课：招生单位定。  </text>
+      </view>
+  </view>
+  <view class="clear"></view>
+  </view>
+  </swiper-item>
+  <swiper-item>
+     <view class="info">
+    <view class="in-title">正文</view>
+    <view class="in-info"><text>高职高专毕业生可以免试入读成人本科，也可参加所在省专升本考试，入读普通高等教育本科。 
+回到当地所在省，参加本省里面组织的专升本的统一考试，但是是单列计划、单独划线，按30％的比例单独录取。也就是说退伍士兵有一百人报考普通专升本的至少有30名学生是可以入读普通本科的。  </text>
+      </view>
+  </view>
+  </swiper-item>
+  <swiper-item>
+     <view class="info">
+    <view class="in-title">正文</view>
+    <view class="in-info"><text>（一）军队自考是经国家教育行政部门批准、对军队人员进行以学历继续教育为主的高等教育国家考试，是个人自学、院校助学和国家考试相结合的高等教育形式。
+（二）军队自考是国家高等教育自学考试的重要组成部分，设专科、本科两个学历层次，与普通高等学校相应学历层次水平的要求相一致。
+（三）军队自考体系重塑后，设置30个新专业，其中本科、专科各15个。
+（四）据军委训练管理部职业教育局有关负责人介绍，军队自考实行自愿参加与组织批准相结合的报名制度，报名对象为在职军官、士官和文职人员，报名考生应政治表现、训练成绩、作风纪律合格，。报考专科不受学历限制，报考本科必须具有国家承认的专科及以上学历。  </text>
+      </view>
+  </view>
+  </swiper-item>
+  <swiper-item>
+     <view class="info">
+    <view class="in-title">正文</view>
+    <view class="in-info"><text>因工作需要，杭州市消防救援支队大江东消防大队江东中队面向社会公开招录聘任制消防员，现将有关事项公告如下： 
+招聘岗位:聘任制消防员
+招聘时间:5月9日至5月19日
+招录条件:（一）男性，年龄16—26周岁,部队退役士兵优先；(二）身高体重标准：身高160cm以上，体重不超过标准体重的30%;（三）学历标准：高中或中专以上学历者；
+报名及联系方式
+报名截止前可通过互联网发送简历至695013219@qq.com邮箱报名，亦可到杭州市钱塘新区大江东消防大队江东中队（河庄街道青六北路与临鸿东路交叉口江东中队）现场报名。
+咨询电话： 0571-82136012、13216198150。
+ </text>
+      </view>
+  </view>
+  </swiper-item>
+  <swiper-item>
+     <view class="info">
+    <view class="in-title">正文</view>
+    <view class="in-info"><text> 2019军队院校招生 
+ 文化科目统一考试大纲
+一、高中毕业生（含同等学力）士兵 
+适用于解放军和武警部队高中毕业生（含同等学力）士兵报考军官学校和士官学校。
+
+二、大专毕业生士兵 
+考试内容：一、大学语文。二、科学知识综合。三、军政基础综合。四、大学英语
+
+三、大学毕业生士兵提干推荐对象、优秀士兵保送入学对象 
+考试内容：一、政治理论知识。二、军事知识。三、基本常识。四、科学知识综合。五、分析推理。六、综合能力
+  </text>
+      </view>
+  </view>
+  </swiper-item>
+    <swiper-item>
+     <view class="info">
+    <view class="in-title">正文</view>
+    <view class="in-info"><text>欢迎投稿，请把图文一并发送至邮箱wujin62115@qq.com，并附上作者介绍，以便小编署名啦!如作品有一稿多投，请说明！有其他疑问，可加小编微信wj1552241503，非诚勿扰！  </text>
+      </view>
+  </view>
+  </swiper-item>
+</swiper>
+</view>

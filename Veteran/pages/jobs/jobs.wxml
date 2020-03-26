@@ -1,0 +1,32 @@
+<view class="haibao">
+  <swiper indicator-dot="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+  <swiper-item>
+    <image src="{{item}}" class="solde-image"></image>
+  </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='items' bindtap='jumpDetai'>
+        <view class='items-l'>
+          <text>最高年薪19.3万！招文职辅警880名！</text>
+          <view>
+
+            <text>作者：迷彩小微
+            时间：2019-5-26</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/4.jpg'></image>
+      </view>
+      <view class='items' bindtap='jumpDetai1'>
+        <view class='items-l'>
+          <text>参照四级消防士工资标准、月休8天
+          ，退役士兵优先！</text>
+          <view>
+            <text>作者：迷彩小微
+            时间：2019-5-22</text>
+          </view>
+        </view>
+        <image class='items-r' src='./image/5.jpg'></image>
+      </view>
+      

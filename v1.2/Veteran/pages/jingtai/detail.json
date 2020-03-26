@@ -1,0 +1,40 @@
+{
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#6E8B3D",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/icon/home.png",
+        "selectedIconPath": "image/icon/home.png"
+      },
+      {
+        "pagePath": "pages/policy/policy",
+        "text": "政策文件",
+        "iconPath": "image/icon/policy.png",
+        "selectedIconPath": "image/icon/policy.png"
+      },
+      {
+        "pagePath": "pages/jobs/jobs",
+        "text": "安置和工作",
+        "iconPath": "image/icon/jobs.png",
+        "selectedIconPath": "image/icon/jobs.png"
+      },
+      {
+        "pagePath": "pages/careers/careers",
+        "text": "升学相关",
+        "iconPath": "image/icon/careers.png",
+        "selectedIconPath": "image/icon/careers.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "image/icon/about.png",
+        "selectedIconPath": "image/icon/about.png"
+      }
+    ]
+  }
+}

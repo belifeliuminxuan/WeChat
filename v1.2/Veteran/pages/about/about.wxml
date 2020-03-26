@@ -1,0 +1,89 @@
+<view class="content">
+   <view class="navbg">
+   <view class="classname"><image src="image/icon/helmet.png" class="serch"></image></view>
+   <view class="nav">
+       <scroll-view class="scroll-view_H" scroll-x="true">
+       <view class="scroll-view_H">
+          <view><view class="{{flag==0?'select':'normal'}}" id="0" bindtap="switchNav">关于</view></view>
+          <view><view class="{{flag==1?'select':'normal'}}" id="1" bindtap="switchNav">建议</view></view>
+          <view><view class="{{flag==2?'select':'normal'}}" id="2" bindtap="switchNav">加入</view></view>
+       </view>
+     </scroll-view>
+      </view>
+      <view class="add">+</view>
+</view>
+<swiper current="{{currentTab}}"style="height:500px">
+  <swiper-item>
+     <view class="content">
+  <view class="top">
+    <view class="top-tr">
+     <image src="{{trimg}}" class="top-trimg"></image>
+    </view>
+    <view class="top-info">
+      <view class="toin-name">退役大学生士兵助手</view>
+      <view class="toin-info"> 我们的愿景:为广大退役的战友提供力所能及的帮助</view>
+    </view>
+  </view>
+  <view class="clear"></view>
+  <view class="info">
+    <view class="in-title">我们的简介</view>
+    <view class="in-info">我们是一群有情怀退役的大学生士兵，我们希望分享军旅故事，传播军营正能量！实时发布教育和就业等有效信息。欢迎战友归队，我们在这里等你！</view>
+  </view>
+  <view class="clear"></view>
+  <view class="info">
+    <view class="in-title">联系我们</view>
+    <view class="in-info">投稿请投至：wujin62115@qq.com</view>
+    <view class="in-info">小程序开发联系：belifeliuminxuan@163.com</view>
+    <view class="in-info">建议意见联系微信：COD-LMX</view>
+    <view class="in-info">关注公众号：微信搜索迷彩小微和捷报社区</view>
+  </view>
+  <view class="clear"></view>
+</view>
+  </swiper-item>
+  <swiper-item>
+     <form bindsubmit="bindFormSubmit">
+      <view style="margin:10px;">
+        <textarea placeholder="有什么建议请告诉我们~留下您的联系方式。" placeholder-style="font-size:13px;margin:fixed;color:#cccccc;" style="width:100%;height:100px;" name="textarea"/>
+      </view>
+      <view style="color:#6E8B3D;font-size:12px;margin-left:10px;margin-bottom:10px;">添加截图</view>
+      <view style="border:1px solid #666666;opacity:0.2;"></view>
+      <button style="width:90%;background:#6E8B3D;color:#EEEEEE;margin-top:10px;" form-type="submit">提交反馈</button>
+     </form>
+  </swiper-item>
+  <swiper-item>
+  <view class="in-info">欢迎加入我们的团队</view>
+  <view style="display:flex;font-size:14px;flex-direction:row;margin-top:5px;">
+  <view style="font-weight:bold;">姓名：</view>
+  <view><input type="text" style="border:1px solid #cccccc" /></view>
+</view>
+ <view style="display:flex;font-size:14px;flex-direction:row;margin-top:5px;">
+  <view style="font-weight:bold;">性别：</view>
+  <view><input type="text" style="border:1px solid #cccccc" /></view>
+</view>
+ <view style="display:flex;font-size:14px;flex-direction:row;margin-top:5px;">
+  <view style="font-weight:bold;">学历：</view>
+  <view><input type="text" style="border:1px solid #cccccc" /></view>
+</view>
+  <view style="display:flex;font-size:14px;flex-direction:row;margin-top:5px;">
+  <view style="font-weight:bold;">所在地：</view>
+  <view><input type="text" style="border:1px solid #cccccc" /></view>
+</view>
+ <view style="display:flex;font-size:14px;flex-direction:row;margin-top:5px;">
+  <view style="font-weight:bold;">就读院校：</view>
+  <view><input type="text" style="border:1px solid #cccccc" /></view>
+</view>
+ <view style="display:flex;font-size:14px;flex-direction:row;margin-top:5px;">
+  <view style="font-weight:bold;">所学专业：</view>
+  <view><input type="text" style="border:1px solid #cccccc" /></view>
+</view>
+<form bindsubmit="bindFormSubmit">
+      <view style="margin:10px;">
+        <textarea placeholder="请告诉我们您的爱好和特长。" placeholder-style="font-size:13px;color:#cccccc;margin:fixed;" style="width:100%;height:100px;" name="textarea"/>
+      </view>
+      <view style="color:#6E8B3D;font-size:12px;margin-left:10px;margin-bottom:10px;">请您上传两张生活照</view>
+      <view style="border:1px solid #666666;opacity:0.2;"></view>
+      <button style="width:90%;background:#6E8B3D;color:#EEEEEE;margin-top:10px;" form-type="submit">提交信息</button>
+     </form>
+  </swiper-item>
+</swiper>
+</view>
